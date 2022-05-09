@@ -1,0 +1,19 @@
+.bars {
+  display: flex;
+}
+.side {
+  flex: 1.5;
+}
+.midones {
+  flex: 8;
+}
+@media screen and (max-width: 650px) {
+  .side {
+    flex: 1.5;
+  }
+}
+@media screen and (max-width: 450px) {
+  .side {
+    flex: 2;
+  }
+}

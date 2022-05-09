@@ -1,0 +1,43 @@
+.postimg {
+  height: 5vh;
+  width: 2.5vw;
+  margin-right: 0.3rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.nv {
+  position: relative;
+}
+.sellerspan {
+  margin-left: 0.5rem;
+  color: tomato;
+}
+.Nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(16, 50, 82);
+  padding: 0.5rem 0.5rem;
+}
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.num_ct {
+  position: absolute;
+  background-color: red;
+  border-radius: 100%;
+  padding: 0.2rem 0.5rem;
+  left: 20px;
+  font-size: 15px;
+}
+.profile > * {
+  margin-inline: 0.5rem;
+}
+@media screen and (max-width: 600px) {
+  .sellerspan {
+    font-size: 1rem;
+  }
+}

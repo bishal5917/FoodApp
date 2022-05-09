@@ -1,0 +1,80 @@
+.notifi-box-h {
+  width: 40vw;
+  max-height: 80vh;
+  overflow-y: scroll;
+  display: none;
+  position: absolute;
+  top: 63px;
+  right: 35px;
+  transition: 1s opacity, 250ms height;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* styling the scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.headType {
+  font-size: 2rem;
+  color: teal;
+}
+.text{
+  display: flex;
+  align-items: center;
+}
+.notifi-box {
+  width: 26vw;
+  max-height: 66vh;
+  overflow-y: scroll;
+  position: absolute;
+  z-index: 999;
+  top: 63px;
+  right: 35px;
+  background-color: rgb(207, 223, 233);
+  transition: 1s opacity, 250ms height;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.notifi-box h2 {
+  font-size: 14px;
+  padding: 10px;
+  z-index: 999;
+  color: rgb(3, 33, 61);
+}
+.notifi-box h2 span {
+  color: #f00;
+}
+.notifi-item {
+  display: flex;
+  border-bottom: 1px solid #eee;
+  padding: 15px 5px;
+  margin-bottom: 0px;
+  cursor: pointer;
+  background-color: aliceblue;
+  z-index: 999;
+}
+.notifi-item:hover {
+  background-color: rgb(211, 219, 231);
+}
+.notifi-item .text h4 {
+  color: #777;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.notifi-item .text p {
+  color: #aaa;
+  font-size: 12px;
+}

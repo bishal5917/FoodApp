@@ -1,0 +1,84 @@
+.userpage {
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+
+.userpage a {
+  text-decoration: none;
+}
+
+.welcome {
+  margin-top: 2rem;
+}
+
+.leftSideBar {
+  text-align: center;
+  background: rgb(123, 200, 245, 0.1);
+}
+.userimage {
+  margin: 0.7rem;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  background: rgb(231, 227, 227);
+}
+
+.currentOrder {
+  margin: 1rem;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 65% 35%;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 15%);
+  transform: scale(0.9);
+}
+.userFood {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.userboximage {
+  padding: 0.1rem;
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+}
+
+.userpageDescriptionBox table {
+  text-align: center;
+}
+
+.userpageDescriptionBox table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  height: fit-content;
+}
+
+.userpageDescriptionBox tr {
+  border: 1rem solid rgb(255, 255, 255);
+}
+
+.userpageDescriptionBox td,
+th {
+  text-align: center;
+  padding: 8px;
+}
+.userpageDescriptionBox .tableimage {
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.userpageDescriptionBox .tableimage img {
+  width: 200px;
+}
+.userpageDescriptionBox table .smallbtn {
+  display: none;
+}
+.cancelcont {
+  background-color: tomato;
+  padding: 0.3rem 0.3rem;
+  border-radius: 10px;
+  cursor: pointer;
+}

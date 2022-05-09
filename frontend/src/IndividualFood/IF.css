@@ -1,0 +1,30 @@
+.cp {
+  cursor: pointer;
+}
+.quantity {
+  display: flex;
+  align-items: center;
+  background-color: rgb(6, 63, 73);
+  padding: 0.3rem 0.3rem;
+  width: fit-content;
+  border-radius: 10px;
+}
+.quantity > div {
+  margin-left: 1rem;
+}
+.add {
+  border: 2px solid rgb(117, 99, 117);
+  padding: 0.5rem 0.5rem;
+  border-radius: 10px;
+}
+.manipulators {
+  cursor: pointer;
+  margin-inline: 0.3rem;
+}
+.value {
+  color: yellow;
+}
+.delIco {
+  margin-inline: 0.5rem;
+  cursor: pointer;
+}

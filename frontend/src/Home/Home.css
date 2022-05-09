@@ -1,0 +1,533 @@
+/* html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+} */
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap");
+
+/* Default Styles */
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+.foodSearchCont {
+  display: flex;
+}
+.Homebody {
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+#restro-title {
+  font-family: "Nunito", sans-serif;
+  color: teal;
+  font-size: 2rem;
+  display: inline-block;
+  cursor: pointer;
+}
+.restro-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.restro-header a {
+  text-decoration: none;
+}
+.cartCont {
+  position: relative;
+}
+.cartLen {
+  position: absolute;
+  background-color: rgb(15, 109, 109);
+  border-radius: 50%;
+  padding: 0.3rem 0.3rem;
+}
+.restro-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.restro-navigation li {
+  text-decoration: none;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.restro-navigation ul li {
+  display: inline-block;
+  padding-right: 20px;
+  font-family: "Nunito", sans-serif;
+  align-self: center;
+}
+
+#profile-picture {
+  margin-top: 0;
+  padding-top: 0;
+  align-self: start;
+  display: inline-block;
+  background-image: url("images/pro.jpg");
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-size: cover;
+  margin-inline: 0.3rem;
+  padding-right: 0;
+}
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+/* Search Bar */
+.search-container {
+  background-color: #edeef2;
+  border-radius: 20px 20px;
+}
+
+.search-input {
+  float: left;
+  padding: 10px 10px;
+  border: none;
+  background-color: #edeef2;
+  border-radius: 20px 20px;
+  height: 2vh;
+}
+
+.search-button {
+  padding: 10px 10px;
+  float: right;
+  border: none;
+  border-radius: 20px;
+}
+
+.search-button:hover {
+  background-color: #ddd;
+}
+
+/* Highlight Section */
+
+section.highlight-sales {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  /* width: 100%; */
+  max-width: 1176px;
+}
+
+.highlight-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #fdf9f9;
+  width: 550px;
+  height: 190px;
+}
+
+.highlight-dish-description {
+  background: #fbf3f3;
+  padding-left: 20px;
+  padding-top: 40px;
+  font-family: "Nunito", sans-serif;
+}
+
+.highlight-dish-description .dish-category {
+  color: #827d7d;
+  font-size: 14px;
+}
+.highlight-dish-description .discount-coupon {
+  color: #f20917;
+  padding-top: 10px;
+  font-size: 32px;
+}
+
+.highlight-dish-description .dish-name {
+  color: #aa9c9c;
+  font-size: 14px;
+  margin-top: 60px;
+}
+
+.highlight-image {
+  background-image: url("images/highlight-burger.jpg");
+  height: 190px;
+  width: 232.13px;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.highlight-dish-description a {
+  text-decoration: none;
+}
+/* For Second Hightlight Image */
+.highlight-image2 {
+  background-image: url("images/highlight-special-dish.jpg");
+  height: 190px;
+  width: 232.13px;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+/* Section for Mostly Consumed foods */
+
+.mostly-consumed-food {
+  max-width: 1146px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+}
+
+.mostly-consumed-food .food-card {
+  border: 1px solid #fefefe;
+  background-color: #fff;
+  margin: 20px;
+  display: grid;
+  border-radius: 10px;
+  max-width: 80px;
+  align-items: center;
+}
+
+.mostly-consumed-food .food-card img {
+  /* width: 85px; */
+  width: 70px;
+  height: 51px;
+  border-radius: 10px;
+  margin: 5px;
+  background-size: cover;
+}
+
+.mostly-consumed-food {
+  background-color: #fafafa;
+  margin-top: 20px;
+}
+
+.food-card {
+  text-align: center;
+}
+
+.food-card p a {
+  font-size: 14px;
+}
+
+/* Section For Nearby Restaurants */
+
+section.nearby-restaurants {
+  margin-top: 20px;
+}
+
+h2.section-introduction {
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  font-family: "Nunito", sans-serif;
+}
+
+.nearby-restaurants .nearby-restaurants-container {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  max-width: 1156px;
+}
+
+.restaurant-card {
+  background: #f4ebeb;
+  width: 367px;
+}
+
+.restaurant-card img {
+  width: 100%;
+  /* width: 367px;  */
+  height: 135px;
+  object-fit: cover;
+}
+
+.restaurant-card {
+  display: grid;
+  grid-gap: 5px;
+}
+
+.restaurant-card p,
+h4 {
+  padding-left: 5px;
+}
+
+.restaurant-card p.restaurant-status {
+  margin-bottom: 5px;
+}
+
+.tags {
+  background: #aaa;
+  margin: 2px;
+  text-align: center;
+  border-radius: 12px;
+}
+.tags a {
+  font-size: 12px;
+  padding: 5px;
+  margin: 2px;
+  color: #ddd;
+}
+
+/* .restaurant-status{
+} */
+
+/* Bottom Section */
+.bottom-section {
+  margin-left: -80px;
+  margin-right: 0px;
+  margin-top: 40px;
+  background-image: url("images/restaurants/section-photo.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 40px;
+  height: 400px;
+  position: relative;
+}
+
+.overlay-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #000;
+  opacity: 0.6;
+  z-index: 0;
+}
+
+.bottom-section .text-in-bottom-section {
+  position: relative;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  z-index: 1;
+}
+
+/* footer */
+
+/* Defining the basic properties of the footer */
+.footer-section-top {
+  margin-top: 200px;
+  background-color: #fdf1f1;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Footer header Css */
+.footer-section-header {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 100px;
+  padding-bottom: 40px;
+}
+
+/* Decorating the header */
+
+#footer-brand-name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  letter-spacing: 0.1px;
+  color: #333030;
+}
+
+.footer-section-header .get-started-box {
+  padding: 5px;
+  background-color: #68d2ab;
+  color: white;
+  border-radius: 8px;
+}
+
+/* Line Break */
+
+#line-break {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.NameOf {
+  font-size: 1.5rem;
+  color: teal;
+}
+
+
+/* The main footer secion displayed in grid */
+.footer-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 100%;
+}
+
+#footer-brand-name {
+  margin-left: 80px;
+}
+
+.footer-list {
+  margin-left: 80px;
+}
+
+.footer-list-header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #0c1e7f;
+  font-weight: 600;
+}
+
+.footer-list ul li {
+  margin: 5px 0 10px 0;
+}
+
+.footer-list ul li a {
+  color: #4d3333;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 10px;
+}
+
+#copyright p {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.khanajamlogo{
+  width: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

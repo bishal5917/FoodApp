@@ -1,0 +1,49 @@
+.parent {
+  margin: 0.5rem 0.5rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 21;
+}
+.numandname {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1.5rem;
+}
+.dailyviews {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aliceblue;
+  padding: 0.5rem 0.5rem;
+  border-radius: 10px;
+  width: 20vw;
+  cursor: pointer;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),
+    0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07),
+    0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+}
+.num {
+  font-size: 4rem;
+}
+.names {
+  font-weight: 300;
+}
+@media screen and (max-width: 1280px) {
+  .parent {
+    flex-direction: column;
+  }
+  .dailyviews {
+    width: 45vh;
+    margin-top: 0.5rem;
+  }
+}
+@media screen and (max-width: 430px) {
+  .dailyviews {
+    width: 47vw;
+    margin-left: 1rem;
+  }
+}

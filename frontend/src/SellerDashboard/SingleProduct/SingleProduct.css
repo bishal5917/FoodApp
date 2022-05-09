@@ -1,0 +1,6 @@
+.image_from_db {
+  width: 50vw;
+  height: 50vh;
+  object-fit: cover;
+  border-radius: 10;
+}

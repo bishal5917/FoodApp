@@ -1,0 +1,9 @@
+.optionsA {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logoutOption {
+  cursor: pointer;
+  color: red;
+}

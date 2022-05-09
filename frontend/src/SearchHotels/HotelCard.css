@@ -1,0 +1,33 @@
+.grand_parent {
+  width: 90vw;
+  height: 90vh;
+}
+.h11 {
+  font-size: 4rem;
+  padding: 20px 20px;
+  text-align: center;
+  color: #000;
+}
+.ppp {
+  text-align: center;
+}
+.parents {
+  width: 80vw;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  transition: all 0.2 linear;
+}
+.child {
+  height: 50vh;
+  box-shadow: 0 0 20px #bac3c3;
+  flex: 1 1 200px;
+  margin: 20px;
+}
+@media (max-width: 768px) {
+  .grand_parent {
+    height: auto;
+  }
+}

@@ -1,0 +1,49 @@
+.eIcon {
+  color: rgb(0, 98, 255);
+  margin-inline: 10px;
+  cursor: pointer;
+}
+.dIcon {
+  color: tomato;
+  cursor: pointer;
+}
+.actionContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title_1 {
+  margin: 0.5rem;
+  background-color: teal;
+  border-radius: 15;
+  padding: 0.5rem;
+  width: fit-content;
+  cursor: pointer;
+}
+.title_2 {
+  margin: 0.5rem;
+  color: teal;
+  font-size: 2rem;
+}
+.not_show {
+  transition: 0.2s ease-out;
+  display: none;
+}
+.create_compo {
+  transition: 0.2s ease-out;
+}
+.searchBar {
+  display: flex;
+  border: 2px solid rgb(148, 139, 139);
+  border-radius: 20px;
+  align-items: center;
+  padding-inline: 0.3rem;
+  width: 20vw;
+  margin: 0.3rem;
+}
+.searchBar > input {
+  border: none;
+  outline: none;
+  background: none;
+  font-family: "Ubuntu", sans-serif;
+}

@@ -1,0 +1,367 @@
+
+.headeruser{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+}
+
+
+*{
+  font-family: 'Poppins',sans-serif;
+}
+.m50{
+  margin-bottom: 30rem;
+  padding: 5rem;
+}
+
+a{
+  text-decoration: none;
+}
+
+button{
+  padding: .4rem .6rem;
+  border: none;
+  background: rgb(242, 98, 32);
+  color: rgb(255, 255, 255);
+  border-radius: 0.5rem;
+}
+
+.btn{
+  border: 1px solid rgba(255, 255, 255,0.1);
+}
+.btn:hover{
+  background: rgb(27, 79, 63);
+  font-weight: bold;
+}
+
+.googlemaps{
+  border-radius: 1rem;
+}
+
+.mymodel{
+  width: 100%;
+}
+
+.modal-content{
+  width: 100%;
+}
+
+.gray{
+  color: rgb(65, 63, 63);
+}
+.black{
+  color: #000;
+}
+.white{
+  color: white;
+}
+.red{
+  color: rgb(224, 36, 36);
+}
+.fa-star{
+  color: rgb(248, 172, 30);
+}
+.green{
+  color: rgb(0, 155, 18);
+}
+.bgray{
+  background-color: rgb(216, 213, 220);
+}
+
+body{
+  color: rgb(36, 35, 35);
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+.isubtext{
+border: 1px solid rgba(90, 87, 87,0.2) ;
+border-radius: .7rem ;
+margin: 0.1rem;
+}
+
+.t1{
+  font-size: 48px;
+  font-family: 'Poppins',sans-serif;
+}
+.t12{
+  font-size: 36px;
+  font-family: 'Poppins',sans-serif;
+}
+.t2{
+  font-size: 24px;
+  font-family: 'Poppins',sans-serif;
+
+}
+.t3{
+  font-size: 18px;
+  font-family: 'Poppins',sans-serif;
+
+}
+.t4{
+  font-size: 14px;
+  font-family: 'Poppins',sans-serif;
+
+}
+.t5{
+  font-size: 12px;
+  font-family: 'Poppins',sans-serif;
+}
+.t6{
+  font-size: 10px;
+  font-family: 'Poppins',sans-serif;
+  font-weight: normal;
+}
+.container{
+  box-shadow: none !important;
+}
+
+.bold{
+  font-weight: bold ;
+}
+.hel,.hel>*{
+  font-family: Helvetica, sans-serif !important;
+}
+.sanf{
+  font-family:  sans-serif !important;
+}
+
+.navbar a{
+text-decoration: none;
+color: rgb(34, 33, 33);
+padding:.1rem 1rem;
+}
+
+.donate{
+  color: white !important ;
+}
+.pointer{
+  cursor: pointer;
+}
+
+img{
+  width: 100%;
+}
+
+.btn{
+  background:rgba(21, 118, 89, 1);
+}
+.mylogo{
+  width: 3.7rem;
+}
+
+/* navbar */
+.navbarflex{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+
+.signupform{
+  width: 50%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  box-shadow: 0px 1px 2px gray;
+  padding: 1vw 3vw;
+}
+
+/* main */
+.backgroundpic{
+  height: fit-content;
+  max-height: 85vh;
+  overflow: hidden;
+}
+.upperdiv{
+  margin-top: -30vh;
+}
+/* searchboc */
+.searchbox{
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.searchbtn{
+  border: none;
+  background: rgb(255, 255, 255);
+  padding:  0.6rem;
+  border-radius: 1rem;
+  margin: 0.1rem;
+  margin-left: -2.5rem;
+}
+
+
+/* secondary cardbox */
+
+.secondarymain{
+  padding: 0 5rem;
+}
+
+
+.cardboxtop{
+  box-shadow: 0px 1px 2px rgb(109, 107, 109);
+  width:300px;
+  margin-top: 2rem
+  
+
+}
+
+.cardimage{
+  height: 270px;
+  overflow: hidden;
+  background: rgb(24, 23, 23);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.cardbox img{
+  transform: scale(1.1);
+  width: 100%;
+  position: relative;
+  background-position: center;
+
+}
+
+.rec-dot_active{
+ background: #000;
+ box-shadow: none !important;
+ color: #000;
+ background-color: black !important;
+ 
+}
+.rec-arrow{
+  transform: scale(0.6);
+  padding:0.5rem;
+  margin:0;
+  min-width: 5px !important;
+  align-self: start !important;
+}
+
+/* men cardbox */
+.men .cardimage{
+  overflow: hidden;
+  background: rgb(24, 23, 23);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* cart table */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  height: fit-content;
+}
+
+tr{
+    border: 1rem solid rgb(255, 255, 255);
+}
+
+td, th {
+  text-align: center;
+  padding: 8px;
+  background: rgba(123, 162, 214, 0.1);
+}
+.tableimage{
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tableimage img{
+    width: 200px;
+    
+}
+table .smallbtn{
+    display: none;
+}
+
+
+
+/* cart payment */
+.paymentbox{
+    box-shadow: 0px 1px 2px gray;
+    padding: 0.5rem;
+}
+.proceedtopay{
+    background: rgba(255, 0, 0, 0.1);
+}
+.itemsinfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.couponinputwidth{
+    max-width: 150px;
+}
+
+
+
+/* user page */
+.usersection{
+  box-shadow: 0px 1px 2px gray;
+  padding: 1rem !important;
+  height: fit-content;
+}
+.userinfobox>div>div{
+  padding: 0.3rem;
+  margin: 0.1rem;
+}
+.userinfobox{
+  box-shadow:1px 1px 2px  gray;
+  margin: 1rem;
+  height: fit-content;
+}
+
+
+/* add items 2 */
+.additems2{
+  background: rgb(218, 217, 217);
+  width: 50%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 1rem;
+}
+
+.additems2 input{
+ font-weight: bolder;
+}
+
+
+
+
+
+/* footer */
+.footer{
+background: rgb(80, 69, 238,0.2);
+}
+
+
+
